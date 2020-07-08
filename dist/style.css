@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 800px;
+    width: 900px;
     height: 60px;
     padding: 30px 10px;
     margin: 7.5% auto;
@@ -26,6 +26,7 @@
     height: auto;
     border-radius: 50%;
     border: 2px solid black;
+    justify-self: center ;
 }
 
 #navButtons {
@@ -51,8 +52,8 @@
 }
 
 #content {
-    width: 800px;
-    min-height: 800px;
+    width: 900px;
+    min-height: 1000px;
     margin: 30px auto;
     border: 2px solid black;
     padding: 30px 30px;
@@ -70,8 +71,8 @@
 
 #img{
     display: block;
-    width: 80%;
-    height: auto;
+    width: 700px;
+    height: 450px;
     margin: 20px auto;
     transition: ease-in-out 500ms;
 }
@@ -86,4 +87,164 @@
     display: block;
     width: 50px;
     margin: 10px auto;
+}
+
+#menuDiv {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#sideHeading {
+    width:100%;
+    text-align: center;
+    font-size: 28px;
+}
+
+#sideDishes {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+}
+
+.sideMenu {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px;
+    padding-top: 0px;
+    font-size: 18px;
+}
+
+.sideDishContainer {
+    display:flex;
+}
+
+.sideDishName {
+    width: 70%;
+    justify-self: left;
+    text-align: left;
+    font-weight: bold;
+}
+
+.sideDishPrice {
+    width: 30%;
+    justify-self: right;
+    text-align: right;
+    font-style: italic;
+    text-shadow:0.5px 0.5px cornflowerblue;
+}
+
+#hotPotRamen {
+    width: 60%;
+    height: auto;
+    border: 2px solid black;
+    margin: 20px 0px;
+}
+
+#ramenHeading {
+    margin: 30px;
+    margin-top: 15px;
+    font-size: 34px;
+}
+
+#ramenInstructions {
+    margin: 30px 30px;
+    font-style: italic;
+    font-size: 19px;
+    margin-bottom: 0px;
+}
+
+#instructionList {
+    padding-left: 20px;
+    margin-bottom: 0px;
+}
+
+#instructionDetails {
+    margin-top: 0px;
+}
+
+#ramenMenuContainer {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.menuItems {
+    margin: 5%;
+    width: 40%;
+}
+
+.menuImage {
+    width: 200px;
+    height: 150px;
+}
+
+.menuAbout {
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menuName {
+    width: 70%;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.menuPrice {
+    width: 30%;
+    text-align: right;
+    font-size: 17px;
+    font-style: italic;
+    text-shadow:0.5px 0.5px cornflowerblue;
+}
+
+.menuDescription {
+    width: 100%;
+    font-style: italic;
+}
+
+#additionalTopping {
+    width: 37.5%;
+    height: auto;
+    border: 2px solid black;
+    margin: 20px 0px;
+    margin-left: 2.5%;
+    justify-self: right;
+}
+
+#toppingHeading {
+    width:100%;
+    text-align: center;
+    font-size: 28px;
+}
+
+#toppingsMenu {
+    padding: 30px;
+    text-align: center;
+    padding-top: 0px;
+}
+
+#toppingsMenu div:last-of-type {
+    border-bottom: 0px;
+}
+
+.topContainer {
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.topPrice {
+    font-size: 24px;
+    padding: 10px 0px;
+    font-weight: 700;
+}
+
+.toppings {
+    font-size: 18px;
+    font-style: italic;
 }

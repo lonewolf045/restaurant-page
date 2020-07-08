@@ -10,7 +10,7 @@ const loadPage = () => {
     const imageRest = document.createElement('img');
     const navButtons = document.createElement('div');
     const body = document.querySelector('body');
-    restName.innerHTML = "ICHIRAKU";
+    restName.innerHTML = "ICHIRAKU RAMEN";
     restName.setAttribute('id','restName');
     navBar.appendChild(restName);
     imageRest.src = 'https://cdn.shopify.com/s/files/1/1869/0319/products/art-file-color-hgr_4326abc3-10e9-481a-a68b-191d89a8ff85_1024x1024.jpg?v=1572541687';
