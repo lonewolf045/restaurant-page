@@ -38,17 +38,19 @@ const loadPage = () => {
             tabs.forEach(butt => {
                 butt.classList.remove('active');
             });
+            //console.log(e.target);
             e.target.classList.add('active');
-            if(tab === 'Home') {
+            if(e.target.textContent === 'Home') {
                 mainDiv.innerHTML = `<img src = "./gifs/ajax-loader.gif" id = 'loading'>`;
                 setTimeout(() => {homePageLoader(mainDiv);},500);
             }
-            if(tab === 'Menu') {
+            if(e.target.textContent === 'Menu') {
                 mainDiv.innerHTML = `<img src = "./gifs/ajax-loader.gif" id = 'loading'>`;
                 setTimeout(() => {menuPageLoader(mainDiv);},500);
             }
-            if(tab === 'Contact') {
+            if(e.target.textContent === 'Contact') {
                 mainDiv.innerHTML = `<img src = "./gifs/ajax-loader.gif" id = 'loading'>`;
+                //console.log('Clicked 1');
                 setTimeout(() => {contactPageLoader(mainDiv);},500);
             }
         });

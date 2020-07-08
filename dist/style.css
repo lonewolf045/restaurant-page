@@ -1,5 +1,11 @@
 *{box-sizing: border-box;}
 
+html {
+    background-color: lightgoldenrodyellow;
+}
+
+/*Index Page(Nav Bar)*/
+
 #navBar {
     display: flex;
     justify-content: space-between;
@@ -7,7 +13,7 @@
     width: 900px;
     height: 60px;
     padding: 30px 10px;
-    margin: 7.5% auto;
+    margin: 80px auto;
     border: 2px solid black;
 }
 
@@ -22,11 +28,12 @@
 }
 
 #imageRest {
+    display: block;
     width: 200px;
     height: auto;
     border-radius: 50%;
     border: 2px solid black;
-    justify-self: center ;
+    justify-self: center;
 }
 
 #navButtons {
@@ -53,11 +60,20 @@
 
 #content {
     width: 900px;
-    min-height: 1000px;
+    min-height: 900px;
     margin: 30px auto;
     border: 2px solid black;
     padding: 30px 30px;
 }
+
+
+#loading {
+    display: block;
+    width: 50px;
+    margin: 10px auto;
+}
+
+/*Home Page*/
 
 #headline {
     font-style: italic;
@@ -83,11 +99,7 @@
     text-align: justify;
 }
 
-#loading {
-    display: block;
-    width: 50px;
-    margin: 10px auto;
-}
+/*Menu Page*/
 
 #menuDiv {
     display: flex;
@@ -246,5 +258,63 @@
 
 .toppings {
     font-size: 18px;
+    font-style: italic;
+}
+
+/*Contact Page*/
+
+#contactDiv {
+    display: flex;
+}
+
+#detailsDiv {
+    width: 50%;
+}
+
+#formDiv {
+    width: 50%;
+}
+
+#address {
+    padding: 10px;
+}
+
+#addressHeading {
+    font-size: 30px;
+}
+
+#addressDetail {
+    font-size: 24px;
+    font-style: italic;
+}
+
+#contact {
+    padding: 10px;
+}
+
+#contactHeading {
+    font-size: 30px;
+}
+
+#contactDetails{
+    font-size: 21px;
+}
+
+.subDetail {
+    display: flex;
+    width: 100%;
+}
+
+.subHeadingContact {
+    width:30%;
+    justify-self: left;
+    text-align: left;
+    font-weight: 700;
+}
+
+.subValueDetail {
+    width:70%;
+    justify-self: right;
+    text-align: left;
     font-style: italic;
 }

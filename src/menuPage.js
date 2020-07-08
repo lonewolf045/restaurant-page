@@ -2,7 +2,7 @@ const menuPageLoader = (mainDiv) => {
     mainDiv.innerHTML = "";
     const innerDiv = document.createElement('div');
     innerDiv.id = 'menuDiv';
-    
+    //window.alert('clicked');
     //Side Dish Menu
     
     const sideDishes = document.createElement('div');
